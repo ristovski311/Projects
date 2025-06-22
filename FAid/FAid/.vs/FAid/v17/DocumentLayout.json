@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ndzn\\source\\repos\\FAid\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{48E4AFB3-184F-455D-9D9B-07A1E9040350}|FAid\\FAid.csproj|c:\\users\\ndzn\\source\\repos\\faid\\faid\\calendardetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{48E4AFB3-184F-455D-9D9B-07A1E9040350}|FAid\\FAid.csproj|solutionrelative:faid\\calendardetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E4AFB3-184F-455D-9D9B-07A1E9040350}|FAid\\FAid.csproj|c:\\users\\ndzn\\source\\repos\\faid\\faid\\model\\day.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E4AFB3-184F-455D-9D9B-07A1E9040350}|FAid\\FAid.csproj|solutionrelative:faid\\model\\day.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E4AFB3-184F-455D-9D9B-07A1E9040350}|FAid\\FAid.csproj|c:\\users\\ndzn\\source\\repos\\faid\\faid\\calendarmonthspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{48E4AFB3-184F-455D-9D9B-07A1E9040350}|FAid\\FAid.csproj|solutionrelative:faid\\calendarmonthspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E4AFB3-184F-455D-9D9B-07A1E9040350}|FAid\\FAid.csproj|c:\\users\\ndzn\\source\\repos\\faid\\faid\\notespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{48E4AFB3-184F-455D-9D9B-07A1E9040350}|FAid\\FAid.csproj|solutionrelative:faid\\notespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E4AFB3-184F-455D-9D9B-07A1E9040350}|FAid\\FAid.csproj|c:\\users\\ndzn\\source\\repos\\faid\\faid\\notecontentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E4AFB3-184F-455D-9D9B-07A1E9040350}|FAid\\FAid.csproj|solutionrelative:faid\\notecontentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E4AFB3-184F-455D-9D9B-07A1E9040350}|FAid\\FAid.csproj|c:\\users\\ndzn\\source\\repos\\faid\\faid\\calendardetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E4AFB3-184F-455D-9D9B-07A1E9040350}|FAid\\FAid.csproj|solutionrelative:faid\\calendardetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E4AFB3-184F-455D-9D9B-07A1E9040350}|FAid\\FAid.csproj|c:\\users\\ndzn\\source\\repos\\faid\\faid\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{48E4AFB3-184F-455D-9D9B-07A1E9040350}|FAid\\FAid.csproj|solutionrelative:faid\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CalendarMonthsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Ndzn\\source\\repos\\FAid\\FAid\\CalendarMonthsPage.xaml",
+              "RelativeDocumentMoniker": "FAid\\CalendarMonthsPage.xaml",
+              "ToolTip": "C:\\Users\\Ndzn\\source\\repos\\FAid\\FAid\\CalendarMonthsPage.xaml",
+              "RelativeToolTip": "FAid\\CalendarMonthsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-22T10:26:24.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NoteContentPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ndzn\\source\\repos\\FAid\\FAid\\NoteContentPage.xaml.cs",
+              "RelativeDocumentMoniker": "FAid\\NoteContentPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Ndzn\\source\\repos\\FAid\\FAid\\NoteContentPage.xaml.cs",
+              "RelativeToolTip": "FAid\\NoteContentPage.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wAIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T10:14:06.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NotesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Ndzn\\source\\repos\\FAid\\FAid\\NotesPage.xaml",
+              "RelativeDocumentMoniker": "FAid\\NotesPage.xaml",
+              "ToolTip": "C:\\Users\\Ndzn\\source\\repos\\FAid\\FAid\\NotesPage.xaml",
+              "RelativeToolTip": "FAid\\NotesPage.xaml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-22T09:48:16.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Day.cs",
+              "DocumentMoniker": "C:\\Users\\Ndzn\\source\\repos\\FAid\\FAid\\Model\\Day.cs",
+              "RelativeDocumentMoniker": "FAid\\Model\\Day.cs",
+              "ToolTip": "C:\\Users\\Ndzn\\source\\repos\\FAid\\FAid\\Model\\Day.cs",
+              "RelativeToolTip": "FAid\\Model\\Day.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T09:44:02.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalendarDetailPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Ndzn\\source\\repos\\FAid\\FAid\\CalendarDetailPage.xaml",
+              "RelativeDocumentMoniker": "FAid\\CalendarDetailPage.xaml",
+              "ToolTip": "C:\\Users\\Ndzn\\source\\repos\\FAid\\FAid\\CalendarDetailPage.xaml",
+              "RelativeToolTip": "FAid\\CalendarDetailPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-22T09:19:07.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CalendarDetailPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ndzn\\source\\repos\\FAid\\FAid\\CalendarDetailPage.xaml.cs",
+              "RelativeDocumentMoniker": "FAid\\CalendarDetailPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Ndzn\\source\\repos\\FAid\\FAid\\CalendarDetailPage.xaml.cs",
+              "RelativeToolTip": "FAid\\CalendarDetailPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T09:19:59.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Ndzn\\source\\repos\\FAid\\FAid\\MainPage.xaml",
+              "RelativeDocumentMoniker": "FAid\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Ndzn\\source\\repos\\FAid\\FAid\\MainPage.xaml",
+              "RelativeToolTip": "FAid\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-18T18:14:24.933Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FAid.CalendarMonthsPage"
+             Title="MONTHS"
+             xmlns:viewmodel="clr-namespace:FAid.ViewModel"
+             x:DataType="viewmodel:CalendarMonthsViewModel">
+    <Grid RowDefinitions="*,*,*,*"
+      ColumnDefinitions="*,*,*,*"
+      Padding="6"
+      ColumnSpacing="3"
+      RowSpacing="3">
+        <Frame BackgroundColor="SlateGray">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding TapMonthCommand}"
+                                      CommandParameter="MAY 2024">
+                    
+                </TapGestureRecognizer>
+            </Frame.GestureRecognizers>
+            <Label HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               Text="MAY 2024"
+               FontAttributes="Bold"
+               FontSize="20">
+            </Label>
+        </Frame>
+        
+        <Frame Grid.Column="1"
+           BackgroundColor="SlateGray">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding TapMonthCommand}"
+                          CommandParameter="JUNE 2024">
+
+                </TapGestureRecognizer>
+            </Frame.GestureRecognizers>
+            <Label HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               Text="JUNE 2024"
+               FontAttributes="Bold"
+               FontSize="20">
+            </Label>
+        </Frame>
+        
+        <Frame Grid.Column="2"
+           BackgroundColor="SlateGray">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding TapMonthCommand}"
+                          CommandParameter="JULY 2024">
+
+                </TapGestureRecognizer>
+            </Frame.GestureRecognizers>
+            <Label HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+
+               Text="JULY 2024"
+               FontAttributes="Bold"
+               FontSize="20">
+            </Label>
+        </Frame>
+        
+        <Frame Grid.Column="3"
+           BackgroundColor="SlateGray">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding TapMonthCommand}"
+                          CommandParameter="AUGUST 2024">
+
+                </TapGestureRecognizer>
+            </Frame.GestureRecognizers>
+            <Label HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               Text="AUG 2024"
+               FontAttributes="Bold"
+               FontSize="20">
+            </Label>
+        </Frame>
+        
+        <Frame Grid.Column="0"
+           Grid.Row="1"
+            BackgroundColor="RoyalBlue">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding TapMonthCommand}"
+                          CommandParameter="SEPTEMBER 2024">
+
+                </TapGestureRecognizer>
+            </Frame.GestureRecognizers>
+            <Label HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               Text="SEP 2024"
+               FontAttributes="Bold"
+               FontSize="20">
+            </Label>
+        </Frame>
+        
+        <Frame Grid.Column="1"
+           Grid.Row="1">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding TapMonthCommand}"
+                          CommandParameter="OCTOBER 2024">
+
+                </TapGestureRecognizer>
+            </Frame.GestureRecognizers>
+            <Label HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               Text="OCT 2024"
+               FontAttributes="Bold"
+               FontSize="20">
+            </Label>
+        </Frame>
+        
+        <Frame Grid.Column="2"
+           Grid.Row="1">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding TapMonthCommand}"
+                          CommandParameter="NOVEMBER 2024">
+
+                </TapGestureRecognizer>
+            </Frame.GestureRecognizers>
+            <Label HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               Text="NOV 2024"
+               FontAttributes="Bold"
+               FontSize="20">
+            </Label>
+        </Frame>
+        
+        <Frame Grid.Column="3"
+           Grid.Row="1">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding TapMonthCommand}"
+                          CommandParameter="DECEMBER 2024">
+
+                </TapGestureRecognizer>
+            </Frame.GestureRecognizers>
+            <Label HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               Text="DEC 2024"
+               FontAttributes="Bold"
+               FontSize="20">
+            </Label>
+        </Frame>
+
+
+
+        <Frame Grid.Row="2"
+               Grid.Column="0">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding TapMonthCommand}"
+                          CommandParameter="JANUARY 2025">
+
+                </TapGestureRecognizer>
+            </Frame.GestureRecognizers>
+            <Label HorizontalTextAlignment="Center"
+       VerticalTextAlignment="Center"
+       Text="JAN 2025"
+       FontAttributes="Bold"
+       FontSize="20">
+            </Label>
+        </Frame>
+        
+        <Frame Grid.Row="2"
+               Grid.Column="1">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding TapMonthCommand}"
+              CommandParameter="FEBRUARY 2025">
+
+                </TapGestureRecognizer>
+            </Frame.GestureRecognizers>
+            <Label HorizontalTextAlignment="Center"
+       VerticalTextAlignment="Center"
+       Text="FEB 2025"
+       FontAttributes="Bold"
+       FontSize="20">
+            </Label>
+        </Frame>
+        
+        <Frame Grid.Row="2"
+                Grid.Column="2">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding TapMonthCommand}"
+              CommandParameter="MARCH 2025">
+
+                </TapGestureRecognizer>
+            </Frame.GestureRecognizers>
+            <Label HorizontalTextAlignment="Center"
+       VerticalTextAlignment="Center"
+
+       Text="MAR 2025"
+       FontAttributes="Bold"
+       FontSize="20">
+            </Label>
+        </Frame>
+
+        <Frame Grid.Row="2"
+                Grid.Column="3">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding TapMonthCommand}"
+              CommandParameter="APRIL 2025">
+
+                </TapGestureRecognizer>
+            </Frame.GestureRecognizers>
+            <Label HorizontalTextAlignment="Center"
+       VerticalTextAlignment="Center"
+       Text="APR 2025"
+       FontAttributes="Bold"
+       FontSize="20">
+            </Label>
+        </Frame>
+
+        <Frame Grid.Row="3"
+                Grid.Column="0">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding TapMonthCommand}"
+              CommandParameter="MAY 2025">
+
+                </TapGestureRecognizer>
+            </Frame.GestureRecognizers>
+            <Label HorizontalTextAlignment="Center"
+       VerticalTextAlignment="Center"
+       Text="MAY 2025"
+       FontAttributes="Bold"
+       FontSize="20">
+            </Label>
+        </Frame>
+
+        <Frame Grid.Row="3"
+                Grid.Column="1">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding TapMonthCommand}"
+              CommandParameter="JUNE 2025">
+
+                </TapGestureRecognizer>
+            </Frame.GestureRecognizers>
+            <Label HorizontalTextAlignment="Center"
+       VerticalTextAlignment="Center"
+       Text="JUN 2025"
+       FontAttributes="Bold"
+       FontSize="20">
+            </Label>
+        </Frame>
+
+        <Frame Grid.Row="3"
+                Grid.Column="2">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding TapMonthCommand}"
+              CommandParameter="JULY 2025">
+
+                </TapGestureRecognizer>
+            </Frame.GestureRecognizers>
+            <Label HorizontalTextAlignment="Center"
+       VerticalTextAlignment="Center"
+       Text="JUL 2025"
+       FontAttributes="Bold"
+       FontSize="20">
+            </Label>
+        </Frame>
+
+        <Frame Grid.Row="3"
+            Grid.Column="3">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding TapMonthCommand}"
+              CommandParameter="AUGUST 2025">
+
+                </TapGestureRecognizer>
+            </Frame.GestureRecognizers>
+            <Label HorizontalTextAlignment="Center"
+       VerticalTextAlignment="Center"
+       Text="AUG 2025"
+       FontAttributes="Bold"
+       FontSize="20">
+            </Label>
+        </Frame>
+        
+    </Grid>
+</ContentPage>

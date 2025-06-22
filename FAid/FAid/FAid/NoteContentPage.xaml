@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FAid.NoteContentPage"
+             Title="{Binding Title}"
+             xmlns:viewmodel="clr-namespace:FAid.ViewModel"
+             x:DataType="viewmodel:NoteContentViewModel">
+    <Grid Padding="7">
+        <Border Padding="0"
+                StrokeThickness="0">
+            <Border.GestureRecognizers>
+                <TapGestureRecognizer x:Name="EditorTap"
+                          NumberOfTapsRequired="2">
+
+                </TapGestureRecognizer>
+            </Border.GestureRecognizers>
+            <Editor x:Name="NoteText"
+                    FontSize="20"
+                    IsEnabled="False"
+                    IsVisible="false"
+                    TextColor="White"
+                    Unfocused="NoteText_Unfocused"
+                    Text="{Binding Description}">
+
+            </Editor>
+        </Border>
+        <ScrollView Grid.ColumnSpan="2"
+                    x:Name="NoteScroll"
+                    >
+            <Border Padding="5"
+                    StrokeThickness="0">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="ScrollTap"
+                                          NumberOfTapsRequired="2"
+                                          Tapped="ScrollTap_Tapped">
+
+                    </TapGestureRecognizer>
+                </Border.GestureRecognizers>
+                <Label x:Name="NoteLabel"
+                        FontSize="20"
+                       IsVisible="True"
+                       Text="{Binding Description}">
+
+                </Label>
+            </Border>
+        </ScrollView>
+    </Grid>
+</ContentPage>

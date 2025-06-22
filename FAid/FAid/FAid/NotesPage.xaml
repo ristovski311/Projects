@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FAid.NotesPage"
+             Title="Notes"
+             xmlns:viewmodel="clr-namespace:FAid.ViewModel"
+             x:DataType="viewmodel:NotesViewModel">
+
+
+    <Grid RowDefinitions="100, *">
+        <Button Text="Add new Note"
+                x:Name="AddNotesTitleBtn"
+                Margin="15"
+                Clicked="AddNotesTitleBtn_Clicked"
+                Grid.Row="0">
+            
+        </Button>
+        <CollectionView ItemsSource="{Binding NoteTitles}"
+                        Grid.Row="1"
+                        SelectionMode="None"
+                        >
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="{x:Type x:String}">
+                    <SwipeView>
+                        <SwipeView.LeftItems>
+                            <SwipeItems>
+                                <SwipeItem Text="Remove"
+                                           BackgroundColor="Maroon"
+                                           Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:NotesViewModel}}, Path=RemoveNoteCommand}"
+                                           CommandParameter="{Binding .}">
+
+                                </SwipeItem>
+                            </SwipeItems>
+                        </SwipeView.LeftItems>
+                        <Grid Padding="1"
+                              RowDefinitions="*"
+                              >
+                            <Frame>
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:NotesViewModel}}, Path=TapCommand}"
+                                                          CommandParameter="{Binding .}">
+
+                                    </TapGestureRecognizer>
+                                </Frame.GestureRecognizers>
+                                <Label Text="{Binding .}"
+                                       Padding="10"
+                                       FontSize="20">
+
+                                </Label>
+                            </Frame>
+                            <Frame>
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:NotesViewModel}}, Path=TapCommand}"
+                              CommandParameter="{Binding .}">
+
+                                    </TapGestureRecognizer>
+                                </Frame.GestureRecognizers>
+                                <Label Text="{Binding .}"
+           Padding="10"
+           FontSize="20">
+
+                                </Label>
+                            </Frame>
+                        </Grid>
+                    </SwipeView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>

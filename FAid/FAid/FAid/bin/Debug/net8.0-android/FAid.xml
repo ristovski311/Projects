@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FAid</name>
+    </assembly>
+    <members>
+        <member name="P:FAid.ViewModel.CalendarDetailViewModel.Title">
+            <inheritdoc cref="F:FAid.ViewModel.CalendarDetailViewModel.title"/>
+        </member>
+        <member name="F:FAid.ViewModel.CalendarMonthsViewModel.tapMonthCommand">
+            <summary>The backing field for <see cref="P:FAid.ViewModel.CalendarMonthsViewModel.TapMonthCommand"/>.</summary>
+        </member>
+        <member name="P:FAid.ViewModel.CalendarMonthsViewModel.TapMonthCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:FAid.ViewModel.CalendarMonthsViewModel.TapMonth(System.String)"/>.</summary>
+        </member>
+        <member name="F:FAid.ViewModel.MainViewModel.goToNotesCommand">
+            <summary>The backing field for <see cref="P:FAid.ViewModel.MainViewModel.GoToNotesCommand"/>.</summary>
+        </member>
+        <member name="P:FAid.ViewModel.MainViewModel.GoToNotesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FAid.ViewModel.MainViewModel.GoToNotes"/>.</summary>
+        </member>
+        <member name="F:FAid.ViewModel.MainViewModel.goToCalendarCommand">
+            <summary>The backing field for <see cref="P:FAid.ViewModel.MainViewModel.GoToCalendarCommand"/>.</summary>
+        </member>
+        <member name="P:FAid.ViewModel.MainViewModel.GoToCalendarCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FAid.ViewModel.MainViewModel.GoToCalendar"/>.</summary>
+        </member>
+        <member name="P:FAid.ViewModel.NoteContentViewModel.Title">
+            <inheritdoc cref="F:FAid.ViewModel.NoteContentViewModel.title"/>
+        </member>
+        <member name="P:FAid.ViewModel.NoteContentViewModel.Description">
+            <inheritdoc cref="F:FAid.ViewModel.NoteContentViewModel.description"/>
+        </member>
+        <member name="P:FAid.ViewModel.NotesViewModel.NoteText">
+            <inheritdoc cref="F:FAid.ViewModel.NotesViewModel.noteText"/>
+        </member>
+        <member name="P:FAid.ViewModel.NotesViewModel.NoteTitles">
+            <inheritdoc cref="F:FAid.ViewModel.NotesViewModel.noteTitles"/>
+        </member>
+        <member name="P:FAid.ViewModel.NotesViewModel.Notes">
+            <inheritdoc cref="F:FAid.ViewModel.NotesViewModel.notes"/>
+        </member>
+        <member name="F:FAid.ViewModel.NotesViewModel.tapCommand">
+            <summary>The backing field for <see cref="P:FAid.ViewModel.NotesViewModel.TapCommand"/>.</summary>
+        </member>
+        <member name="P:FAid.ViewModel.NotesViewModel.TapCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:FAid.ViewModel.NotesViewModel.Tap(System.String)"/>.</summary>
+        </member>
+        <member name="F:FAid.ViewModel.NotesViewModel.removeNoteCommand">
+            <summary>The backing field for <see cref="P:FAid.ViewModel.NotesViewModel.RemoveNoteCommand"/>.</summary>
+        </member>
+        <member name="P:FAid.ViewModel.NotesViewModel.RemoveNoteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:FAid.ViewModel.NotesViewModel.RemoveNote(System.String)"/>.</summary>
+        </member>
+    </members>
+</doc>
