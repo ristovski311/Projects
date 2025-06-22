@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in - Nhat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container login-view">
+        <header class="main-header">
+            <h1>Nhat</h1>
+        </header>
+        <div class="log-in-content">
+            <div class="log-in-div">
+                <h3>Please, log in using username and password!</h3>
+                <label for="log-in-username">Username:</label>
+                <input type="text" name="log-in-username" id="log-in-username">
+                <label for="log-in-password">Password:</label>
+                <input type="password" name="log-in-password" id="log-in-password">
+                <button class="log-in-button">Log in</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container conversation-view">
+        <header class="main-header">
+        <h1>Nhat</h1>
+    </header>
+        <div class="content">
+            
+            <div class="chat-container">
+                
+            </div>
+            
+            <div class="text-input">
+                <textarea id="text-input" placeholder="Type something..."></textarea>
+                <button class="send-button">
+                    <img src="images/sendArrow.png" alt="send">
+                </button>
+            </div>
+        
+        </div>
+    </div>
+    <script src="login.js" type="module"></script>
+    <script src="messaging.js" type="module"></script>
+    <script src="session.js" type="module"></script>
+    <script src="socketManager.js" type="module"></script>
+</body>
+</html>

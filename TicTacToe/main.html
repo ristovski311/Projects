@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="player-color-picker-container">
+            <div class="player-color-picker">
+                <label for="player1-color-picker">Select color for player 1:</label>
+                <input type="color" id="player1-color-picker" name="color-player1" value="#0000ff">
+            </div>
+            <div class="player-color-picker">
+                <label for="player2-color-picker">Select color for player 2:</label>
+                <input type="color" id="player2-color-picker" name="color-player2" value="#ff0000">
+            </div>
+            <button class="color-submit-button">
+                LET'S GO
+            </button>
+        </div>
+        <div class="game-end-info">
+            <h1>GAME FINISHED</h1>
+        </div>
+        <header class="heading">
+            <h1 class="header main-header">TIC TAC TOE</h1>
+            <div class="theme-button">LIGHT THEME</div>
+        </header>
+        <div class="main-content blur">
+            <div class="info">
+                <div class="begin-game">
+                    <h3>BEGIN</h3>
+                </div>
+                <div class="restart-game">
+                    <h3>RESTART</h3>
+                </div>
+                <div class="player-turn">
+                    <h3>PLAYER</h3>
+                    <h3 class="player-number">1's</h3>
+                    <h3>TURN</h3>
+                </div>
+            </div>
+            <div class="board">
+                <div class="game-end-info">
+                    <h1>GAME FINISHED</h1>
+                </div>
+                <button class="board-cell" data-row="0" data-col="0"></button>
+                <button class="board-cell" data-row="0" data-col="1"></button>
+                <button class="board-cell" data-row="0" data-col="2"></button>
+                <button class="board-cell" data-row="1" data-col="0"></button>
+                <button class="board-cell" data-row="1" data-col="1"></button>
+                <button class="board-cell" data-row="1" data-col="2"></button>
+                <button class="board-cell" data-row="2" data-col="0"></button>
+                <button class="board-cell" data-row="2" data-col="1"></button>
+                <button class="board-cell" data-row="2" data-col="2"></button>
+            </div>
+            <div class="result">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tie</th>
+                            <th id="player1-text">Player 1</th>
+                            <th id="player2-text">Player 2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="tie-score">0</td>
+                            <td id="player1-score">0</td>
+                            <td id="player2-score">0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <footer class="footing">
+            <h4>Thanks for playing.</h4>
+            <h6 class="header sub-header">by Ristovski Nikola | 23/4/'25</h6>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+    <script src="themes.js"></script>
+</body>
+</html>
